@@ -1,66 +1,66 @@
-# Unauthorized-Spore
-Some old project I created for fun, With very corny 'responses'.
+Sure! Here's a cleaned-up version of your document with improved formatting using `##` for subheaders and bold text for the commands:
 
+---
 
-> [!WARNING]
-> This project may contain bugs, I tested most of the stuff out and haven't found any bugs.
-> And please, If you find a issue in the program. Let me know.
+# Unauthorized-Spore  
+Some old project I created for fun, with very corny 'responses'.
 
+> [!WARNING]  
+> This project may contain bugs. I tested most of the stuff out and haven't found any bugs.  
+> If you find an issue in the program, please let me know.
 
-# Commands
-## Observe
-Command usage example: "observe /core/alpha/root_1/sp01"
+---
 
-Returns: The status of that spore.
+## Commands
 
-## Init_root
-Command usage example: "init_root root_4"
+**Observe**  
+**Usage:** `observe /core/alpha/root_1/sp01`  
+Returns the status of that spore.
 
-Usage: Creates a new root, Slowly generates new spores onto that root (Takes a while).
+**Init_root**  
+**Usage:** `init_root root_4`  
+Creates a new root. Slowly generates new spores onto that root (takes a while).
 
-## Pop_spore
-Command usage example: "pop_spore /core/alpha/root_1/sp01"
+**Pop_spore**  
+**Usage:** `pop_spore /core/alpha/root_1/sp01`  
+Pops the specified spore. Will fail if the spore is already ruptured.
 
-Usage: Pop's the specified spore, Will fail if the spore is already ruptured.
+**Terminate**  
+**Usage:** `terminate /core/alpha/root_1`  
+Terminates a root. Might fail, might succeed.
 
-## Terminate
-Command usage example: "terminate /core/alpha/root_1"
+**Halt_all**  
+**Usage:** `halt_all`  
+Attempts to shut the core down. Very **unlikely** to succeed.
 
-Usage: Terminates a root, Might fail. Might succeed.
+**Reveal**  
+**Usage:** `reveal /core/alpha/root_1/sp01` or `reveal /core/alpha/root_1`  
+Uncovers any data for that root/spore logged by another person.
 
-## Halt_all
-Command usage example: "halt_all"
+**Echo**  
+**Usage:** `echo "Who are you?"`  
+Sends a message into the core. You might get a response back...  
+**WARNING:** The command only works if your message is in quotation marks (e.g., `"hello"`).
 
-Usage: Attempts to shut the core down, Very **unlikely** for it to happen..
+**Seed**  
+**Usage:** `seed /core/alpha/root_1`  
+Plants a new latent spore inside the specified root.
 
-## Reveal
-Command usage example: "reveal /core/alpha/root_1/sp01" or "reveal /core/alpha/root_1"
+**Silence**  
+**Usage:** `silence`  
+Disables output.
 
-Usage: Uncovers any data for that root/spore logged by another person.
+---
 
-## Echo "hello"
-Command usage example: "echo "Who are you?""
+## About
 
-Usage: Sends a message into the core, You might get a response back..
+I created this project to practice my Python skills. I was into the horror scene and wanted to make something creepy.  
+The responses are VERY corny — I'm not the best at horror, honestly.
 
-WARNING: The command only works if your message is in between quotation marks (eg. "hello")
+### What the program is based on:  
+Multiple roots exist inside a core. Each root contains spores with different statuses (e.g., *watching*, *latent*, *ruptured*, etc).  
+It's a terminal interface for controlling the core... though, for some reason, **you** have access to it now.
 
-## Seed
-Command usage example: "seed /core/alpha/root_1"
+---
 
-Usage: Plants a new latent spore inside the specified root.
-
-## Silence
-Command usage example: "silence"
-
-Usage: Disables output
-
-
-# About
-I created this project to practice my python skills, I was into the horror scene and wanted to create this.
-The responses I put in there are VERY corny, I'm not the best at horror honestly.
-
-> What the program is based off
-Multiple roots inside of a core. Each root contains spores on them that have different statuses, (eg. watching, latent, ruptured, etc)
-It's a terminal for controlling the core. Although for some reason you have access to it now.
-
+Let me know if you'd like this turned into a `README.md` or want the style to match any particular theme (like creepy terminal UI).

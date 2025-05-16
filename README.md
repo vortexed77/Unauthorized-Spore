@@ -1,4 +1,3 @@
-Sure! Here's a cleaned-up version of your document with improved formatting using `##` for subheaders and bold text for the commands:
 
 ---
 
@@ -63,4 +62,3 @@ It's a terminal interface for controlling the core... though, for some reason, *
 
 ---
 
-Let me know if you'd like this turned into a `README.md` or want the style to match any particular theme (like creepy terminal UI).

@@ -57,7 +57,7 @@ The responses are VERY corny — I'm not the best at horror, honestly.
 
 ### What the program is based on:  
 Multiple roots exist inside a core. Each root contains spores with different statuses (e.g., *watching*, *latent*, *ruptured*, etc).  
-It's a terminal meant for controlling the core. Although for some reason, **You** have access to it now.
+It's a terminal meant for controlling the core. Although, for some reason, **You** have access to it now.
 
 ---
 

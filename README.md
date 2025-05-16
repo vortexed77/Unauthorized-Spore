@@ -10,6 +10,7 @@ Some old project I created for fun, With very corny 'responses'.
 # Commands
 ## Observe
 Command usage example: "observe /core/alpha/root_1/sp01"
+
 Returns: The status of that spore.
 
 ## Init_root
